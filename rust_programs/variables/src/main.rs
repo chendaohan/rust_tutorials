@@ -14,7 +14,8 @@ fn underline() {
 
 #[test]
 fn deconstruction() {
-    let dream = ("dream", 22);    // 数组和元组，如果其中的每个元素都实现了 Copy Trait 那么这个数组或元组整体就实现了 Copy Trait
+    // 数组和元组，如果其中的每个元素都实现了 Copy Trait 那么这个数组或元组整体就实现了 Copy Trait
+    let dream = ("dream", 22);
     println!("dream = {dream:?}");
     let (name, age) = dream;
     println!("name = {name}, age = {age}");
