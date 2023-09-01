@@ -17,6 +17,7 @@ cargo new --bin hello_world
 carog new --lib hello_world
 ```
 = 运行项目（当前目录位于 Cargo.toml 所在的目录中）
+代码在对应项目的 `main()` 中。
 ```sh
 cargo run               # 以 Debug 模式编译和运行项目
 cargo run --release     # 以 Release 模式编译和运行项目
