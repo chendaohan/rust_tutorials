@@ -19,12 +19,24 @@ fn deconstruction() {
     let (name, age) = dream;
     println!("name = {name}, age = {age}");
 
+    println!("=========================================");
+
     // 品牌， 重量， 主摄数量， 核心数， 刷新频率
     let phone = ("Redme", 180.3, 3, 8_u32, 120_u32);
     let (brand, .., core, frequency) = phone;
     println!("brand = {brand}, core = {core}, frequency = {frequency}");
     let (_, weight, _, _, frequency) = phone;
     println!("weight = {weight}, frequency = {frequency}");
+
+    println!("=========================================");
+
+    let numbers = [1, 2, 3, 4, 5];
+    let [one, .., four, five] = numbers;
+    println!("one = {one}, four = {four}, five = {five}");
+    let [_, two, _, _, five] = numbers;
+    println!("two = {two}, five = {five}");
+
+    println!("=========================================");
 
     // 变量遮蔽
     let dream = Some(dream);
