@@ -40,7 +40,7 @@ fn deconstruction() {
     println!("=========================================");
 
     // 变量遮蔽
-    let dream = Some(dream);
+    let dream: Option<(&str, i32)> = Some(dream);
     let Some((name, age)) = dream else {
         panic!("dream = None");     // 还可以使用 return;
     };
