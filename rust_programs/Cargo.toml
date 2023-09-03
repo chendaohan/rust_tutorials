@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "hello_world",
-    "variables"
+    "variables",
+    "value_type"
 ]
 resolver = "2"

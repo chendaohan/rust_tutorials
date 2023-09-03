@@ -69,6 +69,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "value_type"
+version = "0.1.0"
+
+[[package]]
 name = "variables"
 version = "0.1.0"
 
