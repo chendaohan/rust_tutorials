@@ -2,6 +2,7 @@
 members = [
     "hello_world",
     "variables",
-    "value_type"
+    "value_type",
+    "char_bool_unit_never",
 ]
 resolver = "2"
