@@ -13,6 +13,10 @@ name = "char_bool_unit_never"
 version = "0.1.0"
 
 [[package]]
+name = "function"
+version = "0.1.0"
+
+[[package]]
 name = "getrandom"
 version = "0.2.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -35,6 +39,10 @@ name = "libc"
 version = "0.2.147"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b4668fb0ea861c1df094127ac5f1da3409a82116a4ba74fca2e58ef927159bb3"
+
+[[package]]
+name = "owner"
+version = "0.1.0"
 
 [[package]]
 name = "ppv-lite86"
@@ -71,6 +79,10 @@ checksum = "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c"
 dependencies = [
  "getrandom",
 ]
+
+[[package]]
+name = "reference_and_borrow"
+version = "0.1.0"
 
 [[package]]
 name = "value_type"

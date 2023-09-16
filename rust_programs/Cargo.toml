@@ -4,5 +4,8 @@ members = [
     "variables",
     "value_type",
     "char_bool_unit_never",
+    "function",
+    "owner",
+    "reference_and_borrow",
 ]
 resolver = "2"
