@@ -1,7 +1,7 @@
 fn main() {
     let str1 = "str1".to_string();
     let str2 = str1;
-    //println!("str1 = {str1}");
+    // println!("str1 = {str1}");
     println!("str2 = {str2}");
 
     let str3 = "str3".to_string();
